@@ -1,0 +1,847 @@
+[
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Uma",
+"traduccion_espanol": "Cabeza"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Chukcha",
+"traduccion_espanol": "Cabello"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Mat'i",
+"traduccion_espanol": "Frente"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Uya",
+"traduccion_espanol": "Cara"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ninri, rinri",
+"traduccion_espanol": "Oreja"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ñawi",
+"traduccion_espanol": "Ojo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Senqa",
+"traduccion_espanol": "Nariz"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Simi",
+"traduccion_espanol": "Boca"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Wirp'a",
+"traduccion_espanol": "Labio"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Kiru",
+"traduccion_espanol": "Diente"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Qallo",
+"traduccion_espanol": "Lengua"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "K'aki",
+"traduccion_espanol": "Quijada"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Kunka",
+"traduccion_espanol": "Cuello"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Tonqor",
+"traduccion_espanol": "Garganta"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Rikra",
+"traduccion_espanol": "Hombro"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Wallwak'u",
+"traduccion_espanol": "Axila"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Marq'a",
+"traduccion_espanol": "Brazo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "K'uchus, k'ukuchu",
+"traduccion_espanol": "Codo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Maki",
+"traduccion_espanol": "Mano"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ruk'a",
+"traduccion_espanol": "Dedo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Sillu",
+"traduccion_espanol": "Uña"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Wasa",
+"traduccion_espanol": "Espalda"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Qhasqo",
+"traduccion_espanol": "Pecho"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ñuñu",
+"traduccion_espanol": "Seno"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Wiksa",
+"traduccion_espanol": "Estómago, barriga"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Weqaw",
+"traduccion_espanol": "Cintura"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Siki",
+"traduccion_espanol": "Poto, trasero"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Pupu",
+"traduccion_espanol": "Ombligo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ullu",
+"traduccion_espanol": "Pene"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "raka",
+"traduccion_espanol": "Vagina"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Chaka",
+"traduccion_espanol": "Pierna"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Moqo",
+"traduccion_espanol": "Rodilla"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Moqochu",
+"traduccion_espanol": "Tobillo"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Chaki",
+"traduccion_espanol": "Pie"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Chaki senqa",
+"traduccion_espanol": "Canilla"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Ch'upa",
+"traduccion_espanol": "Pantorrilla"
+},
+{
+"categoria": "Partes del Cuerpo Humano",
+"frase_quechua": "Chaki panpa",
+"traduccion_espanol": "Planta del pie"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Chupi",
+"traduccion_espanol": "Cola del perro"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Senqa",
+"traduccion_espanol": "Nariz del perro"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Uma",
+"traduccion_espanol": "Cabeza"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Ninri",
+"traduccion_espanol": "Orejas"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Chaki",
+"traduccion_espanol": "Patitas del perro"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Chaka",
+"traduccion_espanol": "Pierna"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Ñawi",
+"traduccion_espanol": "Ojos"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Kunka",
+"traduccion_espanol": "Cuello"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Qhasqo",
+"traduccion_espanol": "Pecho"
+},
+{
+"categoria": "Partes del Cuerpo Animal",
+"frase_quechua": "Wasi",
+"traduccion_espanol": "Espalda del perro"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "uma nanaypi",
+"traduccion_espanol": "dolor de cabeza"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "kirunta hanpichikushan",
+"traduccion_espanol": "se está curando su diente"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "wiksa nanaywan kashan",
+"traduccion_espanol": "está con dolor de estómago"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "senqanmanta yawar lloqsishan",
+"traduccion_espanol": "le está saliendo sangre de la nariz"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "ñawinmanta choqñi lloqsishan",
+"traduccion_espanol": "le está saliendo lagaña de su ojo"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "chaki nanaypi waqashan",
+"traduccion_espanol": "llorando de dolor de pie"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "wasa nanaypi waqan",
+"traduccion_espanol": "llora de dolor de espalda"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "ch'upanta takarukun",
+"traduccion_espanol": "se acaba de golpear su pantorrilla"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "qallo nanaywan kashan",
+"traduccion_espanol": "tiene dolor de lengua"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "huk p’akisqa chakinchata kanmi",
+"traduccion_espanol": "tiene una patita rota"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "chupanta takarukun",
+"traduccion_espanol": "se acaba de golpear su cola"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "ninrikuna nanaypi waqashan",
+"traduccion_espanol": "está llorando de dolor de orejas"
+},
+{
+"categoria": "Dolencias",
+"frase_quechua": "senqata sark’ashan",
+"traduccion_espanol": "le está sangrando la nariz"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "rimani",
+"traduccion_espanol": "hablo"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "maqchhikun",
+"traduccion_espanol": "se lava"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "ñaqch'an",
+"traduccion_espanol": "peina"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "qhawakun",
+"traduccion_espanol": "se mira"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "hoqarinku",
+"traduccion_espanol": "levantan"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "tusushan",
+"traduccion_espanol": "está bailando"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "llinphikushanku",
+"traduccion_espanol": "se están pintando"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "yupashan",
+"traduccion_espanol": "está contando"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "hanpin",
+"traduccion_espanol": "cura"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "rutun",
+"traduccion_espanol": "corta"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "waqan",
+"traduccion_espanol": "llora"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "sayayta yachan",
+"traduccion_espanol": "sabe pararse"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "qhawakuni",
+"traduccion_espanol": "me miro"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "p’itaranku",
+"traduccion_espanol": "saltaron"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "lulushan",
+"traduccion_espanol": "está acariciando"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "pukllan",
+"traduccion_espanol": "juega"
+},
+{
+"categoria": "Acciones",
+"frase_quechua": "rutukushan",
+"traduccion_espanol": "está cortándose"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "waq’a",
+"traduccion_espanol": "alocado / loco"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Sumaq sonqo",
+"traduccion_espanol": "amable"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Machaq",
+"traduccion_espanol": "borracho"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "p’itaq",
+"traduccion_espanol": "el que fuma (fumador)"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Takisapa",
+"traduccion_espanol": "cantor"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Mikhuy sapa",
+"traduccion_espanol": "comelón"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Tusuy sapa",
+"traduccion_espanol": "bailarín"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Wist'u",
+"traduccion_espanol": "cojo(a)"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Wayra chaki / puriy sapa",
+"traduccion_espanol": "andariego"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Sonqo suwa",
+"traduccion_espanol": "ladrón de corazón /conquistador"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Warmi sonqo",
+"traduccion_espanol": "mujeriego"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Qolqe sonqo",
+"traduccion_espanol": "avaros / materialistas"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Wiqsa sapa",
+"traduccion_espanol": "barrigón"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "T'ustu",
+"traduccion_espanol": "Enano para mujer"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Ego",
+"traduccion_espanol": "Enano para varón"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Sunkha",
+"traduccion_espanol": "barbas"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "Wira",
+"traduccion_espanol": "gordo"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "K'aspi / Tullu",
+"traduccion_espanol": "delgado"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "K'uspa chukcha",
+"traduccion_espanol": "Cabello crespo"
+},
+{
+"categoria": "Descripción de Personas y Cosas",
+"frase_quechua": "P'aqo chukcha",
+"traduccion_espanol": "Cabello rubio"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "LLAQTA",
+"traduccion_espanol": "PUEBLO"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "K'IKLLU",
+"traduccion_espanol": "CALLE"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "URBANIZACIÓN",
+"traduccion_espanol": "URBANIZACIÓN"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "LLAQTAYMANTA",
+"traduccion_espanol": "DE MI PUEBLO"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "K'IKLLUYMANTA",
+"traduccion_espanol": "DE MI CALLE"
+},
+{
+"categoria": "Lugares",
+"frase_quechua": "URBANIZACIÓNNIYMANTA",
+"traduccion_espanol": "DE MI URBANIZACIÓN"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "KILLACHAY P’UNCHAY",
+"traduccion_espanol": "Lunes"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "ANTICHAY P’UNCHAY",
+"traduccion_espanol": "Martes"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "QOYLLURCHAY P’UNCHAY",
+"traduccion_espanol": "Miércoles"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "ILLAPACHAY P’UNCHAY",
+"traduccion_espanol": "Jueves"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "CH’ASKACHAY P’UNCHAY",
+"traduccion_espanol": "Viernes"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "K’UYCHICHAY P’UNCHAY",
+"traduccion_espanol": "Sábado"
+},
+{
+"categoria": "Días de la Semana",
+"frase_quechua": "INTICHAY P’UNCHAY",
+"traduccion_espanol": "Domingo"
+},
+{
+"categoria": "Conversación",
+"frase_quechua": "IMATAWAN RUWARANKI",
+"traduccion_espanol": "QUÉ MÁS HICISTE"
+},
+{
+"categoria": "Conversación",
+"frase_quechua": "YAPAMANTA",
+"traduccion_espanol": "UNA VEZ MÁS"
+},
+{
+"categoria": "Conversación",
+"frase_quechua": "WILLAWAY",
+"traduccion_espanol": "AVÍSAME, CUÉNTAME"
+},
+{
+"categoria": "Conversación",
+"frase_quechua": "HAYKUYKAMUY",
+"traduccion_espanol": "PASA O ADELANTE"
+},
+{
+"categoria": "Conversación",
+"frase_quechua": "CHASKILLAYKI",
+"traduccion_espanol": "TE RECIBO"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "WASIMASILLAY",
+"traduccion_espanol": "VECINO MÍO"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "NACHU WASINCHISTA RISHANKIÑA",
+"traduccion_espanol": "¿YA ESTÁS YENDO A NUESTRA CASA?"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "AÑAY",
+"traduccion_espanol": "GRACIAS"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "WASINCHIS",
+"traduccion_espanol": "NUESTRA CASA"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "PUÑUNA P'ITITA",
+"traduccion_espanol": "DORMITORIO"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "HISP'ANA P'ITITA",
+"traduccion_espanol": "BAÑO"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "WAYK'UNA P'ITITA",
+"traduccion_espanol": "COCINA"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "MIKHUNA P'ITITA",
+"traduccion_espanol": "COMEDOR"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "CHASKINA P'ITITA",
+"traduccion_espanol": "SALA O AMBIENTE DE RECEPCIÓN"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "CARRO WAQAYCHANA P'ITITA",
+"traduccion_espanol": "GARAGE O COCHERA"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "INKILL",
+"traduccion_espanol": "JARDÍN"
+},
+{
+"categoria": "Partes de la Casa",
+"frase_quechua": "KANCHA",
+"traduccion_espanol": "PATIO"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "TIYANAKUNA",
+"traduccion_espanol": "SILLAS"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "HANP'ARA",
+"traduccion_espanol": "MESA"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "P'UKUKUNA",
+"traduccion_espanol": "PLATOS"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "UPYANAKUNA",
+"traduccion_espanol": "VASOS"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "MANKA",
+"traduccion_espanol": "OLLA"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "K'ANCHANA",
+"traduccion_espanol": "FOCO"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "PICHANA",
+"traduccion_espanol": "ESCOBA"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "CH'AKICHINA",
+"traduccion_espanol": "TOALLA"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "KIRU MAQCHINA",
+"traduccion_espanol": "CEPILLO DE DIENTES"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "KAWITU",
+"traduccion_espanol": "CAMA"
+},
+{
+"categoria": "Objetos de la Casa",
+"frase_quechua": "P'ACHA",
+"traduccion_espanol": "ROPA"
+},
+{
+"categoria": "Adverbios",
+"frase_quechua": "Yaqapas",
+"traduccion_espanol": "Quizá"
+},
+{
+"categoria": "Adverbios",
+"frase_quechua": "Osqayllata",
+"traduccion_espanol": "Rápido"
+},
+{
+"categoria": "Adverbios",
+"frase_quechua": "Sumaqllata",
+"traduccion_espanol": "Con cuidado"
+},
+{
+"categoria": "Adverbios",
+"frase_quechua": "Allin/allinta",
+"traduccion_espanol": "Bien"
+},
+{
+"categoria": "Adverbios",
+"frase_quechua": "Pisi",
+"traduccion_espanol": "Poco"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "UNT MUYUNTA PHAWARANI",
+"traduccion_espanol": "CORRER ALREDEDOR DE LA UNT"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "IMAYNALLA KASHANKI",
+"traduccion_espanol": "¿CÓMO ESTÁS?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "WASIMAN KUTIMUN",
+"traduccion_espanol": "VOLVIÓ A CASA"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "RUMI WAQAYKUNA",
+"traduccion_espanol": "LLORAN LAS PIEDRAS"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "MAYTA RISHANMI",
+"traduccion_espanol": "A DÓNDE SE ESTÁ YENDO"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "IMA TAQSAYTA YACHANKI",
+"traduccion_espanol": "¿QUÉ LAVAR SABES?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "ISMAYTA RISHAN",
+"traduccion_espanol": "SE ESTÁ YENDO A DEFECAR"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Chakiy nanawan waqanmi.",
+"traduccion_espanol": "Mi pie está llorando de dolor."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Imaynata wasiyki kachkan?",
+"traduccion_espanol": "¿Cómo es tu casa?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Mayman churani?",
+"traduccion_espanol": "¿Dónde lo pongo?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Imataq kayqa?",
+"traduccion_espanol": "¿Qué es esto?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Maypi yachay wasi kachkan?",
+"traduccion_espanol": "¿Dónde está la escuela?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Imata mikhunki?",
+"traduccion_espanol": "¿Qué comes?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Ima pacha wayk'uyta yachanki?",
+"traduccion_espanol": "¿A qué hora sabes cocinar?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Mayqen rimaqta uyariykitaq?",
+"traduccion_espanol": "¿A qué orador estás escuchando?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Chayqa, wasinpi pukllan.",
+"traduccion_espanol": "Entonces, él juega en su casa."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Imata yachanki?",
+"traduccion_espanol": "¿Qué sabes?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Mayta ripunki?",
+"traduccion_espanol": "¿A dónde vas?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Maytawan waqaychanki?",
+"traduccion_espanol": "¿Dónde más lo guardas?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Maypi pukllayta yachanki?",
+"traduccion_espanol": "¿Dónde sabes jugar?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Imataq kay qillqaytaq?",
+"traduccion_espanol": "¿Qué es esta escritura?"
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Chayqa, qolqe q'epiypi kachkanmi.",
+"traduccion_espanol": "Entonces, está en mi monedero."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Chayqa, pukllayniypi kachkanmi.",
+"traduccion_espanol": "Entonces, está en mi juego."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "T'ustuqa, k'aspi rikchaqmi.",
+"traduccion_espanol": "La mujer enana es como un palo."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Egoqa, k'aspi rikchaqmi.",
+"traduccion_espanol": "El hombre enano es como un palo."
+},
+{
+"categoria": "Oraciones",
+"frase_quechua": "Ch'upaqa, k'aspi rikchaqmi.",
+"traduccion_espanol": "La pantorrilla es como un palo."
+}
+]

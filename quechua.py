@@ -1,79 +1,62 @@
 from keep_alive import keep_alive
-keep_alive()
-
 import os
 import json
 import random
-from dotenv import load_dotenv   # <--- para cargar el .env
+from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler
 
 # === Cargar variables del archivo .env ===
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN")   # ahora se toma desde .env
-
-# === Diccionario de categorías base ===
-categories = {
-    "Saludos": [...],
-    "Viajes": [...],
-    "Restaurante": [...],
-    "Compras": [...],
-    "Emergencia": [...],
-    "Conversación": [...]
-}
+TOKEN = os.getenv("BOTQUECHUA_TOKEN")
 
 # === Nombre del archivo JSON ===
-JSON_FILE = "frases_aleman.json"
-
-# === Crear JSON si no existe ===
-if not os.path.exists(JSON_FILE):
-    phrases = []
-    for _ in range(500):
-        cat = random.choice(list(categories.keys()))
-        base = random.choice(categories[cat])
-
-        if "?" in base:
-            variation = base.replace("?", " bitte?")
-        elif base.endswith("!"):
-            variation = base.replace("!", "!!")
-        else:
-            variation = base  # aquí se respeta la frase original
-
-        entry = {"categoria": cat, "frase": variation}
-        phrases.append(entry)
-
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(phrases, f, ensure_ascii=False, indent=2)
-
-    print("Se generó frases_aleman.json automáticamente")
-else:
-    print("Se encontró frases_aleman.json")
+JSON_FILE = "frases_quechua.json"
 
 # === Cargar frases ===
-with open(JSON_FILE, "r", encoding="utf-8") as f:
-    phrases = json.load(f)
+try:
+    with open(JSON_FILE, "r", encoding="utf-8") as f:
+        phrases = json.load(f)
+    print("Se encontró frases_quechua.json.")
+except FileNotFoundError:
+    print(f"❌ Error: No se encontró el archivo {JSON_FILE}. Asegúrate de que está en el mismo directorio.")
+    phrases = []
 
+# Obtener las categorías del archivo JSON para los botones
+categories = list(set([f["categoria"] for f in phrases]))
+categories.sort() # Ordenar las categorías alfabéticamente
 
 # === /start ===
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not categories:
+        await update.message.reply_text("❌ No hay categorías disponibles. Asegúrate de que el archivo JSON no está vacío.")
+        return
+    
     keyboard = [
-        [InlineKeyboardButton(cat, callback_data=cat)] for cat in categories.keys()
+        [InlineKeyboardButton(cat, callback_data=cat)] for cat in categories
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "Hallo! Soy tu bot de frases en alemán.\n\n"
+        "¡Hola! Soy tu bot de frases en quechua.\n\n"
         "➡ Usa /frase para obtener una frase aleatoria.\n"
         "➡ O elige una categoría:",
         reply_markup=reply_markup
     )
 
-
 # === /frase (aleatoria global) ===
 async def frase(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    entry = random.choice(phrases)
-    await update.message.reply_text(f"[{entry['categoria']}] {entry['frase']}")
+    if not phrases:
+        await update.message.reply_text("❌ No hay frases disponibles en el archivo JSON.")
+        return
 
+    entry = random.choice(phrases)
+    await update.message.reply_text(
+        f"**{entry['categoria']}**\n\n"
+        f"**Quechua:** {entry['frase_quechua']}\n"
+        f"**Español:** {entry['traduccion_espanol']}",
+        parse_mode="Markdown"
+    )
 
 # === Handler de botones (categorías) ===
 async def categoria_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -85,10 +68,14 @@ async def categoria_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if frases_filtradas:
         entry = random.choice(frases_filtradas)
-        await query.edit_message_text(f"[{categoria}] {entry['frase']}")
+        await query.edit_message_text(
+            f"**{categoria}**\n\n"
+            f"**Quechua:** {entry['frase_quechua']}\n"
+            f"**Español:** {entry['traduccion_espanol']}",
+            parse_mode="Markdown"
+        )
     else:
         await query.edit_message_text(f"No hay frases en la categoría {categoria}.")
-
 
 # === Main ===
 def main():
@@ -100,11 +87,10 @@ def main():
     # Handlers
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("frase", frase))
-    app.add_handler(CallbackQueryHandler(categoria_handler))  # botones
+    app.add_handler(CallbackQueryHandler(categoria_handler))
 
     print("Bot corriendo...")
     app.run_polling()
-
 
 if __name__ == "__main__":
     main()
