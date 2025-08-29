@@ -1,66 +1,106 @@
-¡Listo! Te paso un **formato base en Markdown** que puedes copiar y pegar en tu `README.md` y luego solo rellenas los títulos y códigos.
 
-````markdown
-# Proyecto: Telegram Bot Alemán 🇩🇪🤖
 
-Este repositorio contiene un bot de Telegram que ayuda a practicar frases en alemán.  
-Hecho con **Python** y librerías como `python-telegram-bot`.
+
+
+### 1️⃣ Título y descripción
+
+```markdown
+# Quechua Telegram Bot 🇵🇪🤖
+
+Este es un bot de Telegram que responde con frases en **quechua**.  
+El proyecto incluye un archivo JSON con frases y un script en Python que maneja la lógica del bot.
+```
 
 ---
 
+### 2️⃣ Requisitos
+
+```markdown
 ## 📌 Requisitos
 
+- Python 3.8 o superior  
+- Librerías instaladas (puedes instalarlas con `pip install -r requirements.txt`)
+```
+
+---
+
+### 3️⃣ Archivos principales
+
+```markdown
+## 📂 Archivos principales
+
+### 1. `quechua.py`  
+Archivo principal para ejecutar el bot.
+
+### 2. `frases_quechua.json`  
+Base de datos con frases en quechua.
+
+### 3. `venvv/`  
+Entorno virtual (opcional, puedes crear el tuyo propio)
+```
+
+---
+
+### 4️⃣ Ejecución
+
+````markdown
+## ▶️ Ejecución
+
+1. **Clona este repositorio:**
 ```bash
-pip install python-telegram-bot
+git clone https://github.com/TU_USUARIO/telegram_bot_quechua.git
+cd telegram_bot_quechua
+````
+
+2. **Crea y activa un entorno virtual:**
+
+```bash
+python -m venv venvv
+source venvv/bin/activate   # Linux/Mac
+venvv\Scripts\activate      # Windows
+```
+
+3. **Instala dependencias:**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Ejecuta el bot:**
+
+```bash
+python quechua.py
+```
+
 ````
 
 ---
 
-## 🚀 Ejecución
+### 5️⃣ Ejemplo de uso en Telegram
+```markdown
+## 💬 Ejemplo de uso en Telegram
 
-```bash
-python importos.py
-```
-
----
-
-## 📂 Archivos principales
-
-### 1. `importos.py`
-
-```python
-# Código aquí
-```
-
-### 2. `frases_aleman.json`
-
-```json
-{
-  "frases": [
-    "Guten Morgen",
-    "Wie geht's?",
-    "Ich habe Hunger"
-  ]
-}
-```
+- Escribe `/start` → muestra el menú con botones de categorías.  
+- Escribe `/frase` → muestra una frase aleatoria de cualquier categoría.  
+- Pulsa un botón (ejemplo: *Saludos*) → muestra una frase dentro de esa categoría.
+````
 
 ---
 
-## ✨ Funcionalidades
+### 6️⃣ Notas y autor
 
-* Muestra frases útiles en alemán.
-* Lee frases desde un archivo JSON.
-* Responde automáticamente en Telegram.
-
----
-
+```markdown
 ## 📝 Notas
 
-* Recuerda configurar tu **TOKEN** en el código para que el bot funcione.
-* Usa un entorno virtual (`venv`) para evitar conflictos de librerías.
+- El bot cargará automáticamente `frases_quechua.json` si el archivo existe.  
+- Recuerda agregar tu **TOKEN de Telegram** en el archivo `.env` antes de ejecutar.
 
 ---
 
-## 📖 Licencia
+👨‍💻 Autor
 
-Hola, soy Josué Cristhian.Este proyecto es un bot de aprendizaje básico de telegram  de uso educativo y libre para la preservación de la lengua quechua.
+Creado por **Josué**, estudiante de Educación en Idiomas (Universidad Nacional de Trujillo)
+```
+
+---
+
