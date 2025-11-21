@@ -15,7 +15,7 @@ El proyecto incluye un archivo JSON con frases y un script en Python que maneja 
 
 ### 2️⃣ Requisitos
 
-```markdown
+markdown
 ## 📌 Requisitos
 
 - Python 3.8 o superior  
