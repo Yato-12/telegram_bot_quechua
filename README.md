@@ -4,7 +4,7 @@
 
 ### 1️⃣ Título y descripción
 
-```markdown
+markdown
 # Quechua Telegram Bot 🇵🇪🤖
 
 Este es un bot de Telegram que responde con frases en **quechua**.  
